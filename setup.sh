@@ -10,4 +10,5 @@ wget https://raw.githubusercontent.com/Nooodles/public_config/refs/heads/main/th
 mkdir -p ~/.config/ohmyposh/
 mv theme.omp.json ~/.config/ohmyposh/
 
-source .zshrc
+usermod -s /bin/zsh root
+zsh
